@@ -87,8 +87,9 @@ pip install opencv-python mediapipe numpy matplotlib scikit-learn torch torchvis
 
 Verify webcam access before starting:
 
-### python webcam_test.py
-
+```python
+python webcam_test.py
+'''
 
 A live video window should open.
 
