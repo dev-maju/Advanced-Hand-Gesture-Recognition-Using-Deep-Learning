@@ -31,25 +31,26 @@ Runs entirely on CPU (no external hardware required)
 
 ## Project Structure
 project_root/
-│
-├── src/                      # All source code
-│   ├── config.py
-│   ├── hand_landmarks.py
-│   ├── record_dataset.py
-│   ├── normalize_dataset.py
-│   ├── dataset.py
-│   ├── model.py
-│   ├── train.py
-│   ├── evaluate.py
-│   └── realtime_inference.py
-│
-├── results/                  # Trained model & evaluation results
-│   ├── gesture_lstm.pth
-│   ├── confusion_matrix.npy
-│   └── classification_report.txt
-│
-├── webcam_test.py             # Webcam verification script
-└── README.md
+|
++-- src/                      # All source code
+|   +-- config.py
+|   +-- hand_landmarks.py
+|   +-- record_dataset.py
+|   +-- normalize_dataset.py
+|   +-- dataset.py
+|   +-- model.py
+|   +-- train.py
+|   +-- evaluate.py
+|   +-- realtime_inference.py
+|
++-- results/                  # Trained model & evaluation results
+|   +-- gesture_lstm.pth
+|   +-- confusion_matrix.npy
+|   +-- classification_report.txt
+|
++-- webcam_test.py             # Webcam verification script
++-- README.md
+
 
 
 ## Dataset Directory (IMPORTANT)
