@@ -31,7 +31,8 @@ Runs entirely on CPU (no external hardware required)
 
 ## Project Structure
 project_root/
-├── src/                  # All source code
+│
+├── src/                      # All source code
 │   ├── config.py
 │   ├── hand_landmarks.py
 │   ├── record_dataset.py
@@ -42,26 +43,29 @@ project_root/
 │   ├── evaluate.py
 │   └── realtime_inference.py
 │
-├── results/              # Trained model and evaluation results
+├── results/                  # Trained model & evaluation results
 │   ├── gesture_lstm.pth
 │   ├── confusion_matrix.npy
 │   └── classification_report.txt
 │
-├── webcam_test.py        # Webcam verification script
-└── README.md
+├── webcam_test.py             # Webcam verification script
+├── README.md
 
-# Dataset Directory (IMPORTANT)
+
+## Dataset Directory (IMPORTANT)
 
 You must manually create the following folder structure before recording data:
 
 data/
-├── raw/
+├── raw/                      # Recorded gesture sequences
 │   ├── swipe_left/
 │   ├── swipe_right/
 │   ├── swipe_up/
 │   ├── swipe_down/
 │   └── grab/
-└── processed/
+│
+└── processed/                # Normalized gesture sequences
+
 
 
 data/raw/ → stores recorded gesture sequences
