@@ -58,18 +58,18 @@ project_root/
 ## Dataset Directory (IMPORTANT)
 
 You must manually create the following folder structure before recording data:
-
+<pre>
 data/
-├── raw/                      # Recorded gesture sequences
-│   ├── swipe_left/
-│   ├── swipe_right/
-│   ├── swipe_up/
-│   ├── swipe_down/
-│   └── grab/
-│
-└── processed/                # Normalized gesture sequences
-
-
+|
++-- raw/                      # Recorded gesture sequences
+|   +-- swipe_left/
+|   +-- swipe_right/
+|   +-- swipe_up/
+|   +-- swipe_down/
+|   +-- grab/
+|
++-- processed/                # Normalized gesture sequences
+</pre>
 
 data/raw/ → stores recorded gesture sequences
 
