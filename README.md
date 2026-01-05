@@ -30,6 +30,7 @@ Runs entirely on CPU (no external hardware required)
 - Grab
 
 ## Project Structure
+<pre>
 project_root/
 |
 +-- src/                      # All source code
@@ -50,6 +51,7 @@ project_root/
 |
 +-- webcam_test.py             # Webcam verification script
 +-- README.md
+</pre>
 
 
 
