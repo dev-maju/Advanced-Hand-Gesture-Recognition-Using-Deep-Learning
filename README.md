@@ -89,35 +89,35 @@ Verify webcam access before starting:
 
 ```python
 python webcam_test.py
-'''
+```
 
 A live video window should open.
 
 ## Training the Model
 
 Record gesture data:
-
-### python src/record_dataset.py
-
+```python
+python src/record_dataset.py
+```
 
 Normalize the dataset:
-
-### python src/normalize_dataset.py
-
+```python
+python src/normalize_dataset.py
+```
 
 Train the LSTM model:
-
-### python src/train.py
-
+```python
+python src/train.py
+```
 
 The trained model will be saved in the results/ folder.
 
 ## Evaluation
 
 Evaluate model performance:
-
-### python src/evaluate.py
-
+```python
+python src/evaluate.py
+```
 
 This generates:
 
