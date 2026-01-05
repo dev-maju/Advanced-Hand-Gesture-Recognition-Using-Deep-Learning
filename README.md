@@ -78,28 +78,28 @@ pip install opencv-python mediapipe numpy matplotlib scikit-learn torch torchvis
 
 ## Webcam Test
 
-### Verify webcam access before starting:
+Verify webcam access before starting:
 
-python webcam_test.py
+### python webcam_test.py
 
 
 A live video window should open.
 
 ## Training the Model
 
-### Record gesture data:
+Record gesture data:
 
-python src/record_dataset.py
-
-
-### Normalize the dataset:
-
-python src/normalize_dataset.py
+### python src/record_dataset.py
 
 
-### Train the LSTM model:
+Normalize the dataset:
 
-python src/train.py
+### python src/normalize_dataset.py
+
+
+Train the LSTM model:
+
+### python src/train.py
 
 
 The trained model will be saved in the results/ folder.
@@ -119,9 +119,9 @@ Precision, recall, and F1-score report
 
 ## Real-Time Inference
 
-### Run live gesture recognition:
+Run live gesture recognition:
 
-python src/realtime_inference.py
+### python src/realtime_inference.py
 
 
 Perform gestures in front of the webcam to see predictions in real time.
