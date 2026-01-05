@@ -49,7 +49,7 @@ project_root/
 │   └── classification_report.txt
 │
 ├── webcam_test.py             # Webcam verification script
-├── README.md
+└── README.md
 
 
 ## Dataset Directory (IMPORTANT)
