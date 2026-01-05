@@ -1,0 +1,11 @@
+              precision    recall  f1-score   support
+
+  swipe_left       0.94      1.00      0.97        32
+ swipe_right       0.97      1.00      0.98        31
+    swipe_up       0.97      0.94      0.95        31
+  swipe_down       1.00      0.94      0.97        31
+        grab       1.00      1.00      1.00        31
+
+    accuracy                           0.97       156
+   macro avg       0.98      0.97      0.97       156
+weighted avg       0.98      0.97      0.97       156
